@@ -1,0 +1,32 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.header-nav button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-nav button:hover {
+    text-decoration: underline;
+}

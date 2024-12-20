@@ -1,0 +1,152 @@
+/* Ogólna struktura */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Sekcja formularza */
+  .form-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .main-form-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Style pól formularza */
+  .inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #7e57c2;
+  }
+  
+  /* Polityka prywatności */
+  .agreement-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .agreement-wrapper input {
+    margin-right: 10px;
+  }
+  
+  .agreement-text-underlined {
+    text-decoration: underline;
+    color: #7e57c2;
+    cursor: pointer;
+  }
+  
+  /* Przycisk Submit */
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #5e3c9d;
+  }
+  
+  /* Lista użytkowników */
+  .users-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .user-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    transition: box-shadow 0.3s;
+  }
+  
+  .user-wrapper:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-wrapper-infos {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .user-wrapper-infos-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-wrapper-infos-role {
+    color: #666;
+  }
+  
+  /* Przycisk usunięcia */
+  .delete-button {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .delete-button:hover {
+    color: #cc0000;
+  }
+  
